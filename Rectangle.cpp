@@ -26,6 +26,9 @@ void Rectangle::setLength(double l) {
     length = l;
 }
 
+double Rectangle::area() const {
+    return length * width;
+}
 // IMPLEMENT THE AREA METHOD HERE
 
 
